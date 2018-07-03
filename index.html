@@ -6,6 +6,7 @@
     <title>Titel</title>
     
     <script src="js/jquery.js"></script>
+    <script src="js/sections.js"></script>
     
   </head>
   <body>
@@ -19,17 +20,6 @@
       <button data-section="start">Start</button>
     </section>
     
-    <script>
     
-      show_section('start');
-      
-      function show_section(id) {
-        $('section').hide();
-        $('section#' + id).show();
-      }
-      
-      $('section').click(show_section($(this).attr('id')));
-      
-    </script>
   </body>
 </html>
