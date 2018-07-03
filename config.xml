@@ -7,7 +7,7 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>Schnitzjagd</name>
+  <name>Schnitzeljagd</name>
 
   <description>
       An example for phonegap build docs.
@@ -16,5 +16,7 @@
   <author href="https://linurix.ch" email="markus.schelbert@linurix.ch">
       Markus Schelbert
   </author>
+    
+  <platform name="android" />
 
 </widget>
