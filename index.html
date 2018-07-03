@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+  </head>
+  <body>
+  
+    <section id="start">
+      <button data-section="scanner">Scanner</button>
+    </section>
+    
+    
+    <section id="scanner">
+      <button data-section="start">Start</button>
+    </section>
+    
+    <script>
+    
+      show_section('start');
+      
+      function show_section(id) {
+        $('section').hide();
+        $('section#' + id).show();
+      }
+      
+      $('section').click(show_section($(this).attr('id)));
+      
+  </body>
+</html>
